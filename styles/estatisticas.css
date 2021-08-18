@@ -1,0 +1,84 @@
+body {
+    background: -webkit-gradient(linear, right top, left bottom) fixed;
+    background-image: linear-gradient(to bottom left, rgb(240, 240, 240), #5bafdc38, rgb(240, 240, 240));
+}
+
+nav :nth-child(3) {
+    color: #2a88bb;
+    font-weight: 600;
+}
+
+main {
+    flex-direction: column;
+}
+h1 {
+    align-self: center;
+    margin-top: 80px;
+}
+#stats {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 7%;
+
+    color: #2a88bb;
+}
+
+#messi-img {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 450px;
+    filter: drop-shadow(20px 15px #2a88bb);
+}
+
+.stat-card {
+    width: 165px;
+    height: 185px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.4s;
+    user-select: none;
+
+    border: 1px solid #2a88bb3f;
+    background-color: #fafafa;
+    filter: drop-shadow(10px 10px 20px #2a88bb42);
+}
+
+.stat-card:hover {
+    transform: scale(110%);
+}
+
+.stat-card img {
+    filter: drop-shadow(2px 2px #2a88bb);
+}
+
+#games img {
+    width: 60px;
+    margin-top: 7px;
+}
+
+#goals img {
+    width: 70px;
+}
+
+#titles img {
+    width: 70px;
+}
+
+.card-number {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 22px;
+}

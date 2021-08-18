@@ -1,0 +1,97 @@
+body {
+    background: -webkit-gradient(linear, left top, right bottom) fixed;
+    background-image: linear-gradient(to bottom right, #FFF, #5bafdc38, #FFF);
+    
+    height: max-content;
+    background-repeat: no-repeat;
+}
+
+nav :nth-child(2) {
+    color: #2a88bb;
+    font-weight: 600;
+}
+
+
+main, article, figure {
+    min-height: 513px;
+}
+
+article, figure {
+    width: 50%;
+    min-height: 513px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-description {
+    margin-top: 22vh;
+    margin-left: 50px;
+    max-width: 450px;
+    align-self: flex-end;
+}
+
+#about-description h1 {
+    max-width: 300px;
+    font-size: 35px;
+}
+
+#about-description p, .about-text {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+figure {
+    display: flex;
+}
+
+.messi-image {
+    width: 240px;
+    filter: drop-shadow(25px 10px #5baedc);
+    margin: auto;
+}
+
+content figure .messi-image {
+    filter: drop-shadow(10px 10px #5baedc);
+    width: 270px;
+}
+
+content {
+    min-height: 513px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-box {
+    margin: auto 0 auto 0;
+}
+
+.about-box h2 {
+    max-width: 300px;
+    font-size: 30px;
+}
+
+.about-text {
+    max-width: 450px;
+}
+
+#messi-teams {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#messi-teams img {
+    height: 50px;
+}
+
+#estatisticas-button {
+    width: 170px;
+}
+
+#estatisticas-button svg {
+    width: 18px;
+}

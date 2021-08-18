@@ -1,0 +1,80 @@
+body {
+    background-image: linear-gradient(to bottom right, #FFF, #FFF, #5bafdc65);
+    overflow: hidden;
+}
+
+nav :nth-child(1) {
+    color: #2a88bb;
+    font-weight: 600;
+}
+
+#number-box {
+    position: absolute;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+}
+
+#number-box p {
+    margin: auto;
+    font-weight: 600;
+    font-size: 340px;
+    color: #27bad417;
+    user-select: none;
+}
+
+article, figure {
+    width: 50%;
+    height: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+#headline-box {
+    z-index: 2;
+    margin-top: 24vh;
+    padding-left: 9.5em;
+    font-family: 'Georama', sans-serif;
+}
+
+#headline-box h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: -15px;
+}
+
+#headline-box h1 {
+    font-weight: 600;
+    font-size: 80px;
+}
+
+#subheadline {
+    font-size: 22px;
+    max-width: 340px;
+    margin-bottom: 15px;
+}
+
+#saiba-mais-button {
+    position: absolute;
+    width: 140px;
+}
+
+#saiba-mais-button svg {
+    margin-top: 2px;
+    width: 20px;
+}
+
+figure {
+    flex-direction: column;
+}
+
+#messi-image {
+    width: 360px;
+    filter: drop-shadow(25px 10px #5baedc);
+    position: absolute;
+    margin-left: 10%;
+    bottom: 0;
+}

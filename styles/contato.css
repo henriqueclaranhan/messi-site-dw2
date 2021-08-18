@@ -1,0 +1,114 @@
+body {
+    background-image: linear-gradient(to bottom right, #5bafdc65, #FFF, #fff);
+    overflow: hidden;
+}
+
+nav :nth-child(4) {
+    color: #2a88bb;
+    font-weight: 600;
+}
+
+figure {
+    width: 50%;
+    display: flex;
+}
+
+.messi-image {
+    height: 440px;
+    filter: drop-shadow(25px 10px #5baedc);
+    margin: auto;
+}
+
+section {
+    width: 50%;
+    display: flex;
+}
+#form-box {
+    align-self: center;
+    margin-left: 4em;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #2a88bb;
+    filter: drop-shadow(15px 20px 20px #5bafdc50);
+    width: 360px;
+    padding: 1.3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contato-title{
+    margin-bottom: 1rem;
+}
+
+.input-field input, #msg-input {
+    width: 100%;
+    border: 1px solid #2a88bb;
+    border-radius: 3px;
+}
+
+.input-field p {
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.input-field input{
+    padding-left: 8px;
+    font-size: 0.9rem;
+    height: 40px;
+    
+}
+
+form div:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.input-field input:focus, .input-field textarea:focus {
+    transition: 0.15s;
+    box-shadow: 0 0 4px #2a88bb;
+    outline-offset: 2px;
+    outline-color: #2a88bb;
+}
+
+::placeholder { 
+    color: rgba(0, 0, 0, 0.733);
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#msg-input{
+    resize: none;
+    height: 115px;
+    padding-left: 8px;
+    padding-top: 9px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #2a88bb;
+    align-self: center;
+    width: 97%;
+    margin-top: -3px;
+}
+
+#enviar-button {
+    cursor: pointer;
+    margin-top: 8px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 3px;
+    outline: none;
+    background-color: #2a88bb;
+    color: white;
+    border: none;
+}
+
+#enviar-button:active {
+    transition: 0.15s ease;
+    background-color: #0d5a83;
+    color: rgb(194, 194, 194);
+}
